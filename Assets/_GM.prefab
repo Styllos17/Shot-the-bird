@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1686974056144880}
+  m_IsPrefabParent: 1
+--- !u!1 &1489877962100776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4523372355825446}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1686974056144880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4002089179005716}
+  - component: {fileID: 114754021654915428}
+  - component: {fileID: 82234713520027604}
+  - component: {fileID: 114082553139150110}
+  - component: {fileID: 114727291599841558}
+  m_Layer: 0
+  m_Name: _GM
+  m_TagString: GM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4002089179005716
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686974056144880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.269747, y: -3.265757, z: 4.1205516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4523372355825446}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4523372355825446
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489877962100776}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.220253, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4002089179005716}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82234713520027604
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686974056144880}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fc121fcbc62264e27adf2f47d5eca5a9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114082553139150110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686974056144880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6808094cc63a547e089c0b491e6130f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCam: {fileID: 0}
+--- !u!114 &114727291599841558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686974056144880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9680e802b7b1644d7ae057ff444bc8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: Bird 2
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 2
+    rate: 1.5
+  - name: Bird 3
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 3
+    rate: 2
+  - name: Bird 4
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 4
+    rate: 1
+  - name: Bird 5
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 5
+    rate: 2
+  - name: Bird 6
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 6
+    rate: 2.5
+  - name: Bird 7
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 7
+    rate: 3
+  - name: Bird 8
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 8
+    rate: 4
+  - name: Bird 10
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 10
+    rate: 4
+  - name: Bird 12
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 12
+    rate: 4.5
+  - name: Bird 14
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 14
+    rate: 5
+  - name: Bird 16
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 16
+    rate: 5.5
+  - name: Bird 18
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 18
+    rate: 6
+  - name: Bird 20
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 20
+    rate: 6
+  - name: Bird 24
+    enemy: {fileID: 4715412659046558, guid: 87c4fce6457f44ae6b7509b98bb8f368, type: 2}
+    count: 24
+    rate: 6
+  - name: Bird 28
+    enemy: {fileID: 4715412659046558, guid: 0d53bccdc6aa74c73879ca6a337f233a, type: 2}
+    count: 28
+    rate: 7
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timeBetweenWaves: 2
+--- !u!114 &114754021654915428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686974056144880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395fb8204b22347ee94b7d4a97b14890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxLives: 3
+  playerPrefab: {fileID: 4626563359901694, guid: bff7f98c5600f4c98a415eee88e9fc65,
+    type: 2}
+  spawnPoint: {fileID: 4325823423687086, guid: a7fc33939fd24408683e09e94d028eaf, type: 2}
+  spawnDelay: 2
+  spawnPrefab: {fileID: 4145099677632824, guid: aaa9afb7b423143d081cb91364e4a1ab,
+    type: 2}
+  respawnAudio: {fileID: 0}
+  enemyDeathParticles: {fileID: 0}
+  spawnSoundName: Respawn
+  gameOverUI: {fileID: 0}

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a318b7e875f584c3aa00dd91ff769d21
+timeCreated: 1501623294
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Star Dust - Demo
+  fontNames:
+  - Star Dust - Demo
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

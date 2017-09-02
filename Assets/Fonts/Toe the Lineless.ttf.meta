@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3c46e1da3a9e4e6999261fcf4027b89
+timeCreated: 1501687937
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Toe the Lineless
+  fontNames:
+  - Toe the Lineless
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
